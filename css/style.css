@@ -1,0 +1,56 @@
+body {
+    background-color: #454F4F;
+}
+h1 {
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    color: white;  
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    padding: 10px; 
+}
+#gridContainer {
+    text-align: center;
+}
+.grid-item  {
+    border: 1px solid;
+    padding: 20px;
+    color: lightgrey;
+    font-size: 10px;
+    text-align: center;
+}   
+.btn {
+    background-color: #D11149;  
+    color: white;
+   
+}
+#newGameBtn {
+    text-align: center;
+    padding: 7px; 
+}
+#moves {
+    padding: 3px;
+    color: white;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.btnMod {
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 3px;
+    border-radius: 8px;
+    overflow: visible;
+    background-color: transparent; 
+    border: transparent;
+
+}
+#winLoss {
+    padding: 3px;
+    color: white;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 30px;
+}
+

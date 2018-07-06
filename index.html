@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+    <title>Flood It!</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Flood It!</h1>
+        <div id="newGameBtn" align="center">
+            <button type="button" class="btn btn-primary btn-lg">New Game</button>
+           
+         <div id='moves'>Moves: 21</div>   
+
+        <div id=winLoss></div>
+
+            <div id='gridContainer'>
+                <div class="grid-container"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<div id='mCont' align='center'>
+        <!-- Button trigger modal -->
+        <button type="button" class="btnMod btn-primary" data-toggle="modal" data-target="#exampleModalCenter" align="center">
+          Click for Instructions
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLongTitle">How to Play Flood It!</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                
+                </button>
+              </div>
+              <div class="modal-body">
+                Flood It! is a simple yet addictive strategy game in which you have to flood the whole game board with one color in 21 moves or less.
+                <br>
+                <br>
+                Start at the top left square  and choose a color adjacent to that square. Continue selecting adjacent squares to flood the board with one color.
+                <br>
+                <br>
+                Remember you only have 21 trys! Good Luck! 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                
+              </div>
+            </div>
+          </div>
+</div>
+
+
+<script type="text/javascript" src="js/app.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
